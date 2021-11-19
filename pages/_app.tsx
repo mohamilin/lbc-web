@@ -6,6 +6,12 @@ import "../styles/css/checkout.css"
 import "../styles/css/complete-checkout.css"
 import "../styles/css/sign-in.css"
 import "../styles/css/sign-up.css"
+import "../styles/css/sign-up.css"
+import "../styles/css/404-not-found.css"
+import "../styles/css/sidebar.css"
+import "../styles/css/overview.css"
+import "../styles/css/transactions.css"
+import "../styles/css/transactions-detail.css"
 
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
