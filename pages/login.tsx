@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 export default function login() {
     return (
         <>
@@ -47,8 +47,10 @@ export default function login() {
                                     {/* <!-- <button type="submit"
                                         className="btn btn-sign-in fw-medium text-lg text-white rounded-pill mb-16"
                                         role="button">Continue to Sign In</button> --> */}
+                                    <Link href="/register">
                                     <a className="btn btn-sign-up fw-medium text-lg color-palette-1 rounded-pill"
-                                        href="/register" role="button">Register</a>
+                                         role="button">Register</a>
+                                    </Link>
                                 </div>
                             </div>
                         </form>
