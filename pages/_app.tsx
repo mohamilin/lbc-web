@@ -12,6 +12,7 @@ import "../styles/css/sidebar.css"
 import "../styles/css/overview.css"
 import "../styles/css/transactions.css"
 import "../styles/css/transactions-detail.css"
+import "../styles/css/navbar-log-in.css"
 
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
